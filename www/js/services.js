@@ -4,7 +4,7 @@ angular.module('starter.services', [])
   // Might use a resource here that returns a JSON array
   "use strict"; //strict mode
   var url = "https://api.github.com/"; // GitHub URL
-  var token = "5e125b137fa211af2a3df37c74aeb513af2e7436"; //personalToken
+  var token = ""; //personalToken
 
   var searchData = {};
 
