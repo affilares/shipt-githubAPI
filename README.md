@@ -1,2 +1,2 @@
 ## ScreenShots
-!(localhost-8100-(iPhone 6 Plus) (1).png)
+!(shipt-githubAPI/screenshots/localhost-8100-(iPhone 6 Plus).png)
