@@ -1,2 +1,8 @@
 ## ScreenShots
-!(shipt-githubAPI/screenshots/localhost-8100-(iPhone 6 Plus).png)
+![1](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus).png?raw=true)
+![2](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus)%20(1).png).png?raw=true)
+![3](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus)%20(2).png).png?raw=true)
+![4](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus)%20(3).png).png?raw=true)
+![5](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus)%20(4).png).png?raw=true)
+![6](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus)%20(5).png).png?raw=true)
+![7](https://github.com/RP20/shipt-githubAPI/blob/master/screenshots/localhost-8100-(iPhone%206%20Plus)%20(6).png).png?raw=true)
