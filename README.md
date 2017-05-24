@@ -52,4 +52,4 @@ $ npm start
 
 When you first run the project this is what it should look like in the browser.
 
-![](app-start-view.png)
+https://github.com/newshipt/ionic-probefahrt-take-home/blob/master/app-start-view.png

@@ -55,7 +55,7 @@ angular.module('starter.controllers', [])
   "use strict"; //strict mode
 
   $scope.followersText = "Followers";
-  $scope.followingText = "Bad request";
+  $scope.followingText = "Following";
   $scope.repoText = "Repositories";
   $scope.langText = "Language :";
   $scope.dateCreateText = "Created at :";
