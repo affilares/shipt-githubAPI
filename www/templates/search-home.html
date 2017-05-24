@@ -1,0 +1,38 @@
+<ion-view view-title="{{searchTitle}}">
+    <ion-content scroll="false">
+      <div class="bar bar-header">
+        <div class="bar bar-header item-input-inset">
+
+          <label class="item-input-wrapper">
+              <i class="icon ion-ios-search placeholder-icon"></i>
+              <input type="search" placeholder="{{searchInput}}" ng-model="search.username" ng-change="userSearch()">
+          </label>
+
+        </div>
+          <!-- <p>{{totalUsers}} Users</p> -->
+      </div>
+    </ion-content>
+
+    <ion-content scroll="true" style="padding-top: 50px">
+        <ion-list>
+              <div class="list">
+                  <a ng-repeat="user in userList | orderBy:'-score'" class="item item-avatar" href="#/tab/profile/profile-results/{{user.login}}">
+                      <img src="{{user.avatar_url}}" alt="photo">
+                      <h2>{{user.login}}</h2>
+                      <span class="badge badge-calm">{{user.score}}</span>
+                  </a>
+              </div>
+        </ion-list>
+
+        <div data-ng-if="showResult">
+          <p style="color: red; text-align: center; padding-top: 50px">{{searchLimit}}
+        </div>
+
+        <div data-ng-if="responseError">
+          <p style="color: red; text-align: center; padding-top: 50px">{{badRequest}}</p>
+          <p style="color: red; text-align: center; padding-top: 50px">{{networkError}}</p>
+        </div>
+
+
+    </ion-content>
+</ion-view>

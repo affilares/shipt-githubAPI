@@ -1,0 +1,47 @@
+<ion-view view-title="{{profileTitle}}">
+  <ion-content>
+    <div class="list card">
+
+    <div class="item" data-ng-if="name && location">
+      <!-- <img src="{{avatarUrl}}"> -->
+      <h1>{{name}}</h1>
+      <p>{{company}}</p>
+        <p>{{location}}</p>
+        <p>{{memberTitle}} {{created_at | date}}</p>
+    </div>
+
+  <div class="item item-body">
+    <img src="{{avatarUrl}}" class="full-image" style="border-radius: 10px;">
+
+    <div class="row" style="text-align: center;">
+      <div class="col col-50">
+        <a href="#" class="subdued"><h2>{{followers}}</h2> {{followersTitle}}</a>
+      </div>
+      <div class="col col-50">
+        <a href="#" class="subdued"><h2>{{following}}</h2> {{followingTitle}}</a>
+    </div>
+    </div>
+
+    <div class="right-badge-container"><h1>{{repoCount}} {{repoText}}</h1></div>
+
+      <a ng-repeat="repo in repos">
+
+        <div class="card">
+          <div class="item item-divider">
+            {{repo.name}}
+          </div>
+          <div class="item item-text-wrap">
+            <p data-ng-if="repo.language">{{langText}} {{repo.language}}</p>
+            <p data-ng-if="repo.created_at">{{dateCreateText}} {{repo.created_at | date}}</p>
+            <p data-ng-if="repo.description">{{descriptionText}} {{repo.description}}
+          </div>
+
+        </div>
+      </a>
+
+
+  </div>
+
+</div>
+  </ion-content>
+</ion-view>
